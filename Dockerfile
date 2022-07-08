@@ -19,7 +19,7 @@ COPY . /usr/src/clotho
 
 RUN cd remote-compiler && npm install
 RUN npm install
-RUN npm install -g pm2
+RUN npm install -g mongodb webpack@4.29.3 pm2@4.2.1
 
 EXPOSE 9000
 EXPOSE 8000

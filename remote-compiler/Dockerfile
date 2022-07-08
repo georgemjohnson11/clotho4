@@ -9,7 +9,7 @@ WORKDIR /usr/src/remote-compile
 RUN apt-get update
 
 RUN npm install
-RUN npm install -g pm2
+RUN npm install -g mongodb webpack@4.29.3 pm2@4.2.1
 
 EXPOSE 8000
 
